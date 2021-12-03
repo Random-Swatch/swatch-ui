@@ -5,6 +5,7 @@
 ## Pre-requisites
 
 * NodeJs 16.13.1
+* Docker 19.03.8 `(Optional)`
 
 ## How to build and run
 
