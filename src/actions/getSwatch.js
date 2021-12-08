@@ -31,7 +31,7 @@ export function getSwatch() {
     return function (dispatch) {
 
         dispatch(requestSwatch())
-        return fetch(`http://localhost:8007/swatch`)
+        return fetch(`http://localhost:8080/swatch`)
             .then((response) => {
                 if (response.status === 200) {
                     return response.json()
