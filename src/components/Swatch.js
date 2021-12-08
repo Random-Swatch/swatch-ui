@@ -22,7 +22,7 @@ const Swatch = ({colors, status, message}) => (
                     }
                     {
                         status === RECEIVE_SWATCH ? colors.map(color => {
-                            if (color.isCssCompatible === true) {
+                            if (color.is_css_compatible === true) {
                                 return <Color color={color} key={color.syntax}/>
                             }
                         }) : ""
